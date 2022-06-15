@@ -12,9 +12,11 @@ number ** 2 // returns the square a number
 // Ctrl + L clear the console
 
 var name = "emir"
-name[0] = "a" // we expect the first character of the name variable to be changed with "a" character, but the contents of primitive variables cannot be changed
+name[0] = "a" /* we expect the first character of the name variable to be changed with "a" character,
+but the contents of primitive variables cannot be changed */
 
-[] == '' // we expect a false result but the result is true because js is doing type casting, String([]) == ''
+[] == '' /* we expect a false result but the result is true
+because js is doing type casting, String([]) == '' */
 
 // the contents of primitive variables cannot be changed
 
@@ -54,7 +56,11 @@ function x(cb) {
 
 // fetch is a web api
 
-// none of the web APIs are run directly, they are read first, we call that asynchronous operation. All asynchronous operations are read once first. Then they are thrown into the web API queue. They wait here and start working after the other queue is finished
+/* none of the web APIs are run directly, they are read first,
+we call that asynchronous operation.
+all asynchronous operations are read once first.
+then they are thrown into the web API queue.
+they wait here and start working after the other queue is finished */
 
 // event loop can be solved with callbacks or promises
 
